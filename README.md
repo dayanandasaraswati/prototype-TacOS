@@ -1,4 +1,4 @@
-prototype-TacOS
+TacOS
 ===============
 
 Prototype of an intelligent operating subsystem - TacOS
