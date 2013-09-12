@@ -1,0 +1,29 @@
+COMMONALITY VARIABILITY ANALYSIS
+--------------------------------
+
+Apps         :- Browser, Multimedia, Productivity
+Features     :- Networking, Display, Playback, Editting,  StoreRetrieve 
+Tasks        :- PlayAudio, DisplayVideo, DrawWindow etc
+FeatureSets  :- Play_Multimedia, Show, Talk, Speak, Listen etc
+Intelligence :- <Not Implemented Now>
+ 
+Definitions:
+------------
+Apps     - Apps are entities that the user interacts with to get something done
+
+Features - Features are distinct functionalities that are used by apps to 
+           accomplish user's commands.
+
+Tasks    - A task is a set of operations that when executed  has an 
+           user-noticable effect. Tasks are used by features, but features
+           do not necessarily use tasks alone.
+
+FeatureSets - A feature-set is a group of features that together accomplish
+              a domain-specific activity such as listening to music, watching
+              a movie etc. Essentially, a feature-set implements one VERB in 
+              the language like listen, watch etc. Apps build feature-sets and 
+              publish them in a standard format. One app will be able to pick up
+              the feature-set of another app and use it.
+
+Intelligence- The "GOD" system that can predict the right task to execute 
+              at a given point in time. 

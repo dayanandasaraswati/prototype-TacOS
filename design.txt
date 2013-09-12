@@ -1,3 +1,4 @@
+--------------INVALID---------
 Prototype design
 ----------------
 
@@ -5,7 +6,7 @@ Prototype design
    TacOS through a configuration file or dynamically by calling APIs.
 
 2. Applications update the values of context elements with TacOS whenever 
-   the elements within the application.
+   the elements within the application changes.
 
 3. TacOS will have a predefined set of context elements to track system state
    such as battery power, GPS location, WiFi associativity etc. System context
@@ -19,3 +20,10 @@ Prototype design
 
 5. TacOS will track the actions performed by all aplications because both tasks
    and action-items need to get initiated via TacOS only.
+
+
+Implementation
+--------------
+TacOS will run as a separate process and use RPC to communicate with apps. 
+It will use SQLite to store tasks and context information. The database wil be
+keyed by taskname and app UUID.
