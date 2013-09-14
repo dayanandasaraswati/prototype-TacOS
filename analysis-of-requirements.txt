@@ -27,3 +27,8 @@ FeatureSets - A feature-set is a group of features that together accomplish
 
 Intelligence- The "GOD" system that can predict the right task to execute 
               at a given point in time. 
+
+
+Scope:
+------
+The actual requirement has a really broad scope. There is no restriction on the types of apps, number of features or the nature of tasks with which TacOS should work. Since this is just a prototype, I should define my own scope and implement a framework which can be expanded as the scope changes. Here are the 

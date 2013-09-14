@@ -1,0 +1,4 @@
+TODO LIST
+---------
+1. Make a helper function to create purpose strings when creating an App
+2. Write a Boost function to perform setup and teardown steps for tests

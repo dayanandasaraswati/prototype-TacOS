@@ -1,0 +1,12 @@
+Iteration 1:
+-----------
+- App is the only class avaiilable now. There are going to be three apps at 
+  this point - browser, ide, music. 
+- Following basic functionality will be available:
+    Browser - visit_webpage(URL)
+    IDE     - edit_code(filename)
+    Music   - play(music_filename)
+
+  From an user POV, it wouldn't know the type of the app that provides these
+  functionalities. All it knows is that it needs an app to do any operation in 
+  TacOS.
